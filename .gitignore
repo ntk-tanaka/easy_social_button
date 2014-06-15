@@ -1,0 +1,18 @@
+*~
+*.lock
+*.DS_Store
+*.swp
+*.out
+
+tags
+
+.local.vimrc
+npm-debug.log
+
+development/
+temp/
+node_modules/
+bower_components/
+
+## sass
+.sass-cache
