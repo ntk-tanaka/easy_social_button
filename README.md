@@ -10,12 +10,16 @@
 
 ## JSを読み込む
 
+jQueryと、destディレクトリ内の「easy_social_button.min.js」を読み込みます。
+
 ```html
 <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
-<script type="text/javascript" src="../dest/easy_socialbutton.js"></script>
+<script type="text/javascript" src="../dest/easy_social_button.min.js"></script>
 ```
 
 ## 表示させたい箇所にタグを配置する
+
+「.social-button」クラスを指定したdivタグを、ソーシャルボタンを表示したい箇所に配置します。
 
 ### 横配置
 
