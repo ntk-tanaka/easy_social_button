@@ -7,14 +7,14 @@ module.exports = (grunt) ->
           join: true
           bare: true
         files:
-          "dest/easy_social_button.js": [
+          "dist/easy_social_button.js": [
             "src/easy_social_button.coffee"
           ]
 
     uglify:
       deploy:
         files:
-          'dest/easy_social_button.min.js': ['dest/easy_socialbutton.js']
+          'dist/easy_social_button.min.js': ['dist/easy_social_button.js']
 
     connect:
       livereload:

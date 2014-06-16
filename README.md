@@ -12,10 +12,8 @@
 
 jQueryと、destディレクトリ内の「easy_social_button.min.js」を読み込みます。
 
-```html
 <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
-<script type="text/javascript" src="../dest/easy_social_button.min.js"></script>
-```
+<script type="text/javascript" src="../dist/easy_social_button.min.js"></script>
 
 ## 表示させたい箇所にタグを配置する
 
